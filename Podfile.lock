@@ -1,0 +1,26 @@
+PODS:
+  - R.swift (3.3.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - Realm (2.8.2):
+    - Realm/Headers (= 2.8.2)
+  - Realm/Headers (2.8.2)
+  - RealmSwift (2.8.2):
+    - Realm (= 2.8.2)
+  - STV-Extensions (0.1.9)
+
+DEPENDENCIES:
+  - R.swift (= 3.3.0)
+  - RealmSwift (= 2.8.2)
+  - STV-Extensions (= 0.1.9)
+
+SPEC CHECKSUMS:
+  R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  Realm: 0e262abf087c7054013e00579274f7e070486d4a
+  RealmSwift: 73565e91bc403c1149e4acf31ff9de506b2f9459
+  STV-Extensions: 48b4788afd374c6940a20f9eea6b1b9ebd40fe1c
+
+PODFILE CHECKSUM: 4a35144db6be3fef9893a20777ba939b605d58ef
+
+COCOAPODS: 1.2.1

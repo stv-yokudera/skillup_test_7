@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143722AE549BA04935DA7917 /* Pods_skillup_test_7_skillup_test_7Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF67C8C0CB85773E74FEE6CE /* Pods_skillup_test_7_skillup_test_7Tests.framework */; };
+		8160DA72D9F9FCACCCBAAB5A /* Pods_skillup_test_7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A863BB0BF2655A1CE214D69A /* Pods_skillup_test_7.framework */; };
 		B699F1BC1EFDF17200443E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1BB1EFDF17200443E2F /* AppDelegate.swift */; };
-		B699F1BE1EFDF17200443E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1BD1EFDF17200443E2F /* ViewController.swift */; };
-		B699F1C11EFDF17200443E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699F1BF1EFDF17200443E2F /* Main.storyboard */; };
 		B699F1C31EFDF17200443E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B699F1C21EFDF17200443E2F /* Assets.xcassets */; };
 		B699F1C61EFDF17200443E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699F1C41EFDF17200443E2F /* LaunchScreen.storyboard */; };
-		B699F1D11EFDF17200443E2F /* skillup_test_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1D01EFDF17200443E2F /* skillup_test_7Tests.swift */; };
+		B699F1E31EFDF30700443E2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B699F1E21EFDF30700443E2F /* Localizable.strings */; };
+		B699F1E51EFDF3BA00443E2F /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1E41EFDF3BA00443E2F /* R.generated.swift */; };
+		B699F1EC1EFDF47A00443E2F /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1EB1EFDF47A00443E2F /* RealmDaoHelper.swift */; };
+		B699F1EE1EFDF49700443E2F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1ED1EFDF49700443E2F /* Logger.swift */; };
+		B699F1F31EFDF4DF00443E2F /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1F21EFDF4DF00443E2F /* Folder.swift */; };
+		B699F1F51EFDF52200443E2F /* FolderDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1F41EFDF52200443E2F /* FolderDao.swift */; };
+		B699F1F71EFDF57A00443E2F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1F61EFDF57A00443E2F /* Task.swift */; };
+		B699F1F91EFDF5A500443E2F /* TaskDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1F81EFDF5A500443E2F /* TaskDao.swift */; };
+		B699F1FD1EFDF60000443E2F /* FolderListTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1FC1EFDF60000443E2F /* FolderListTableViewProvider.swift */; };
+		B699F1FF1EFDF67700443E2F /* TaskListTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F1FE1EFDF67700443E2F /* TaskListTableViewProvider.swift */; };
+		B699F2041EFDF70D00443E2F /* FolderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2031EFDF70D00443E2F /* FolderListViewController.swift */; };
+		B699F2081EFDF8D100443E2F /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2071EFDF8D100443E2F /* TaskListViewController.swift */; };
+		B699F20A1EFDF8E800443E2F /* FolderListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699F2091EFDF8E800443E2F /* FolderListViewController.storyboard */; };
+		B699F20C1EFDF92800443E2F /* TaskListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B699F20B1EFDF92800443E2F /* TaskListViewController.storyboard */; };
+		B699F2121EFDFACA00443E2F /* FolderDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2111EFDFACA00443E2F /* FolderDaoTests.swift */; };
+		B699F2151EFDFAE500443E2F /* FolderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2141EFDFAE500443E2F /* FolderTests.swift */; };
+		B699F2171EFDFDFB00443E2F /* TaskDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2161EFDFDFB00443E2F /* TaskDaoTests.swift */; };
+		B699F2191EFDFE0900443E2F /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2181EFDFE0900443E2F /* TaskTests.swift */; };
+		B699F21F1EFDFF5900443E2F /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F21D1EFDFF5900443E2F /* TaskCell.swift */; };
+		B699F2201EFDFF5900443E2F /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B699F21E1EFDFF5900443E2F /* TaskCell.xib */; };
+		B699F2241EFE055B00443E2F /* TaskCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699F2231EFE055B00443E2F /* TaskCellTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +46,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		350641D135BCD0D925F32DE1 /* Pods-skillup_test_7-skillup_test_7Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_7-skillup_test_7Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_7-skillup_test_7Tests/Pods-skillup_test_7-skillup_test_7Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3742F424FA58F61C4FBD1634 /* Pods-skillup_test_7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_7.release.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_7/Pods-skillup_test_7.release.xcconfig"; sourceTree = "<group>"; };
+		6B09DA007BA07A1AD16752F9 /* Pods-skillup_test_7-skillup_test_7Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_7-skillup_test_7Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_7-skillup_test_7Tests/Pods-skillup_test_7-skillup_test_7Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8020C20436594D1D76A00B94 /* Pods-skillup_test_7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skillup_test_7.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skillup_test_7/Pods-skillup_test_7.debug.xcconfig"; sourceTree = "<group>"; };
+		A863BB0BF2655A1CE214D69A /* Pods_skillup_test_7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillup_test_7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B699F1B81EFDF17200443E2F /* skillup_test_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skillup_test_7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B699F1BB1EFDF17200443E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B699F1BD1EFDF17200443E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B699F1C01EFDF17200443E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B699F1C21EFDF17200443E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B699F1C51EFDF17200443E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B699F1C71EFDF17200443E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B699F1CC1EFDF17200443E2F /* skillup_test_7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skillup_test_7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B699F1D01EFDF17200443E2F /* skillup_test_7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skillup_test_7Tests.swift; sourceTree = "<group>"; };
 		B699F1D21EFDF17200443E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B699F1E21EFDF30700443E2F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B699F1E41EFDF3BA00443E2F /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		B699F1EB1EFDF47A00443E2F /* RealmDaoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		B699F1ED1EFDF49700443E2F /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		B699F1F21EFDF4DF00443E2F /* Folder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		B699F1F41EFDF52200443E2F /* FolderDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderDao.swift; sourceTree = "<group>"; };
+		B699F1F61EFDF57A00443E2F /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B699F1F81EFDF5A500443E2F /* TaskDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDao.swift; sourceTree = "<group>"; };
+		B699F1FC1EFDF60000443E2F /* FolderListTableViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderListTableViewProvider.swift; sourceTree = "<group>"; };
+		B699F1FE1EFDF67700443E2F /* TaskListTableViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTableViewProvider.swift; sourceTree = "<group>"; };
+		B699F2031EFDF70D00443E2F /* FolderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderListViewController.swift; sourceTree = "<group>"; };
+		B699F2071EFDF8D100443E2F /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		B699F2091EFDF8E800443E2F /* FolderListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FolderListViewController.storyboard; sourceTree = "<group>"; };
+		B699F20B1EFDF92800443E2F /* TaskListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TaskListViewController.storyboard; sourceTree = "<group>"; };
+		B699F2111EFDFACA00443E2F /* FolderDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderDaoTests.swift; sourceTree = "<group>"; };
+		B699F2141EFDFAE500443E2F /* FolderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderTests.swift; sourceTree = "<group>"; };
+		B699F2161EFDFDFB00443E2F /* TaskDaoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDaoTests.swift; sourceTree = "<group>"; };
+		B699F2181EFDFE0900443E2F /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
+		B699F21D1EFDFF5900443E2F /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		B699F21E1EFDFF5900443E2F /* TaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
+		B699F2231EFE055B00443E2F /* TaskCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCellTests.swift; sourceTree = "<group>"; };
+		CF67C8C0CB85773E74FEE6CE /* Pods_skillup_test_7_skillup_test_7Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skillup_test_7_skillup_test_7Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8160DA72D9F9FCACCCBAAB5A /* Pods_skillup_test_7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +95,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143722AE549BA04935DA7917 /* Pods_skillup_test_7_skillup_test_7Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AC446AAC03D3654440647D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8020C20436594D1D76A00B94 /* Pods-skillup_test_7.debug.xcconfig */,
+				3742F424FA58F61C4FBD1634 /* Pods-skillup_test_7.release.xcconfig */,
+				6B09DA007BA07A1AD16752F9 /* Pods-skillup_test_7-skillup_test_7Tests.debug.xcconfig */,
+				350641D135BCD0D925F32DE1 /* Pods-skillup_test_7-skillup_test_7Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E78300A8AEE960225D1896A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A863BB0BF2655A1CE214D69A /* Pods_skillup_test_7.framework */,
+				CF67C8C0CB85773E74FEE6CE /* Pods_skillup_test_7_skillup_test_7Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B699F1AF1EFDF17200443E2F = {
 			isa = PBXGroup;
 			children = (
+				8E78300A8AEE960225D1896A /* Frameworks */,
+				1AC446AAC03D3654440647D6 /* Pods */,
+				B699F1B91EFDF17200443E2F /* Products */,
 				B699F1BA1EFDF17200443E2F /* skillup_test_7 */,
 				B699F1CF1EFDF17200443E2F /* skillup_test_7Tests */,
-				B699F1B91EFDF17200443E2F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +145,12 @@
 		B699F1BA1EFDF17200443E2F /* skillup_test_7 */ = {
 			isa = PBXGroup;
 			children = (
-				B699F1BB1EFDF17200443E2F /* AppDelegate.swift */,
-				B699F1BD1EFDF17200443E2F /* ViewController.swift */,
-				B699F1BF1EFDF17200443E2F /* Main.storyboard */,
-				B699F1C21EFDF17200443E2F /* Assets.xcassets */,
-				B699F1C41EFDF17200443E2F /* LaunchScreen.storyboard */,
-				B699F1C71EFDF17200443E2F /* Info.plist */,
+				B699F1DD1EFDF26400443E2F /* Controllers */,
+				B699F1DF1EFDF27700443E2F /* Helpers */,
+				B699F1DB1EFDF25200443E2F /* Models */,
+				B699F1E01EFDF27C00443E2F /* Others */,
+				B699F1DE1EFDF27200443E2F /* Utils */,
+				B699F1DC1EFDF26000443E2F /* Views */,
 			);
 			path = skillup_test_7;
 			sourceTree = "<group>";
@@ -90,10 +158,204 @@
 		B699F1CF1EFDF17200443E2F /* skillup_test_7Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B699F1D01EFDF17200443E2F /* skillup_test_7Tests.swift */,
+				B699F20D1EFDFA7A00443E2F /* Models */,
+				B699F21A1EFDFEC400443E2F /* Views */,
 				B699F1D21EFDF17200443E2F /* Info.plist */,
 			);
 			path = skillup_test_7Tests;
+			sourceTree = "<group>";
+		};
+		B699F1DB1EFDF25200443E2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1EF1EFDF4BA00443E2F /* Realm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B699F1DC1EFDF26000443E2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1FA1EFDF5E600443E2F /* FolderList */,
+				B699F1FB1EFDF5EB00443E2F /* TaskList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B699F1DD1EFDF26400443E2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B699F2011EFDF6ED00443E2F /* FolderList */,
+				B699F2001EFDF6E300443E2F /* Startup */,
+				B699F2021EFDF6F400443E2F /* TaskList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B699F1DE1EFDF27200443E2F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B699F1DF1EFDF27700443E2F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1E61EFDF3C700443E2F /* Realm */,
+				B699F1ED1EFDF49700443E2F /* Logger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B699F1E01EFDF27C00443E2F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1BB1EFDF17200443E2F /* AppDelegate.swift */,
+				B699F1C21EFDF17200443E2F /* Assets.xcassets */,
+				B699F1C71EFDF17200443E2F /* Info.plist */,
+				B699F1E21EFDF30700443E2F /* Localizable.strings */,
+				B699F1E41EFDF3BA00443E2F /* R.generated.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B699F1E61EFDF3C700443E2F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1EB1EFDF47A00443E2F /* RealmDaoHelper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B699F1EF1EFDF4BA00443E2F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1F01EFDF4C500443E2F /* Folder */,
+				B699F1F11EFDF4C900443E2F /* Task */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B699F1F01EFDF4C500443E2F /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1F21EFDF4DF00443E2F /* Folder.swift */,
+				B699F1F41EFDF52200443E2F /* FolderDao.swift */,
+			);
+			path = Folder;
+			sourceTree = "<group>";
+		};
+		B699F1F11EFDF4C900443E2F /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1F61EFDF57A00443E2F /* Task.swift */,
+				B699F1F81EFDF5A500443E2F /* TaskDao.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		B699F1FA1EFDF5E600443E2F /* FolderList */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1FC1EFDF60000443E2F /* FolderListTableViewProvider.swift */,
+			);
+			path = FolderList;
+			sourceTree = "<group>";
+		};
+		B699F1FB1EFDF5EB00443E2F /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				B699F21D1EFDFF5900443E2F /* TaskCell.swift */,
+				B699F21E1EFDFF5900443E2F /* TaskCell.xib */,
+				B699F1FE1EFDF67700443E2F /* TaskListTableViewProvider.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		B699F2001EFDF6E300443E2F /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B699F1C41EFDF17200443E2F /* LaunchScreen.storyboard */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		B699F2011EFDF6ED00443E2F /* FolderList */ = {
+			isa = PBXGroup;
+			children = (
+				B699F2091EFDF8E800443E2F /* FolderListViewController.storyboard */,
+				B699F2031EFDF70D00443E2F /* FolderListViewController.swift */,
+			);
+			path = FolderList;
+			sourceTree = "<group>";
+		};
+		B699F2021EFDF6F400443E2F /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				B699F20B1EFDF92800443E2F /* TaskListViewController.storyboard */,
+				B699F2071EFDF8D100443E2F /* TaskListViewController.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		B699F20D1EFDFA7A00443E2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B699F20E1EFDFA8C00443E2F /* Realm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B699F20E1EFDFA8C00443E2F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B699F20F1EFDFA9700443E2F /* Folder */,
+				B699F2101EFDFAA000443E2F /* Task */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B699F20F1EFDFA9700443E2F /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				B699F2111EFDFACA00443E2F /* FolderDaoTests.swift */,
+				B699F2141EFDFAE500443E2F /* FolderTests.swift */,
+			);
+			path = Folder;
+			sourceTree = "<group>";
+		};
+		B699F2101EFDFAA000443E2F /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				B699F2161EFDFDFB00443E2F /* TaskDaoTests.swift */,
+				B699F2181EFDFE0900443E2F /* TaskTests.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		B699F21A1EFDFEC400443E2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B699F21B1EFDFECA00443E2F /* FolderList */,
+				B699F21C1EFDFECF00443E2F /* TaskList */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B699F21B1EFDFECA00443E2F /* FolderList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FolderList;
+			sourceTree = "<group>";
+		};
+		B699F21C1EFDFECF00443E2F /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				B699F2231EFE055B00443E2F /* TaskCellTests.swift */,
+			);
+			path = TaskList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +365,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699F1D51EFDF17200443E2F /* Build configuration list for PBXNativeTarget "skillup_test_7" */;
 			buildPhases = (
+				1E78613AC942B98C30C69BBE /* [CP] Check Pods Manifest.lock */,
+				B699F1E11EFDF2D900443E2F /* R.swift */,
 				B699F1B41EFDF17200443E2F /* Sources */,
 				B699F1B51EFDF17200443E2F /* Frameworks */,
 				B699F1B61EFDF17200443E2F /* Resources */,
+				188CDBDF3F8D64BEFB34EA63 /* [CP] Embed Pods Frameworks */,
+				222E4F32B081BF80C266D88F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +386,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B699F1D81EFDF17200443E2F /* Build configuration list for PBXNativeTarget "skillup_test_7Tests" */;
 			buildPhases = (
+				7D5015DD065844CED6EF5C2B /* [CP] Check Pods Manifest.lock */,
 				B699F1C81EFDF17200443E2F /* Sources */,
 				B699F1C91EFDF17200443E2F /* Frameworks */,
 				B699F1CA1EFDF17200443E2F /* Resources */,
+				A72A2F7D652D3A938CE43029 /* [CP] Embed Pods Frameworks */,
+				8E7EFC220D92A4918BBA11AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,8 +451,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B699F1C61EFDF17200443E2F /* LaunchScreen.storyboard in Resources */,
+				B699F1E31EFDF30700443E2F /* Localizable.strings in Resources */,
+				B699F20C1EFDF92800443E2F /* TaskListViewController.storyboard in Resources */,
+				B699F20A1EFDF8E800443E2F /* FolderListViewController.storyboard in Resources */,
+				B699F2201EFDFF5900443E2F /* TaskCell.xib in Resources */,
 				B699F1C31EFDF17200443E2F /* Assets.xcassets in Resources */,
-				B699F1C11EFDF17200443E2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +468,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		188CDBDF3F8D64BEFB34EA63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_7/Pods-skillup_test_7-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E78613AC942B98C30C69BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		222E4F32B081BF80C266D88F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_7/Pods-skillup_test_7-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5015DD065844CED6EF5C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7EFC220D92A4918BBA11AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_7-skillup_test_7Tests/Pods-skillup_test_7-skillup_test_7Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72A2F7D652D3A938CE43029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skillup_test_7-skillup_test_7Tests/Pods-skillup_test_7-skillup_test_7Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B699F1E11EFDF2D900443E2F /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/$PRODUCT_NAME/Others\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B699F1B41EFDF17200443E2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B699F1BE1EFDF17200443E2F /* ViewController.swift in Sources */,
+				B699F2041EFDF70D00443E2F /* FolderListViewController.swift in Sources */,
+				B699F2081EFDF8D100443E2F /* TaskListViewController.swift in Sources */,
+				B699F1F71EFDF57A00443E2F /* Task.swift in Sources */,
+				B699F1EE1EFDF49700443E2F /* Logger.swift in Sources */,
+				B699F1F91EFDF5A500443E2F /* TaskDao.swift in Sources */,
+				B699F1F51EFDF52200443E2F /* FolderDao.swift in Sources */,
+				B699F1EC1EFDF47A00443E2F /* RealmDaoHelper.swift in Sources */,
+				B699F1FD1EFDF60000443E2F /* FolderListTableViewProvider.swift in Sources */,
+				B699F1FF1EFDF67700443E2F /* TaskListTableViewProvider.swift in Sources */,
 				B699F1BC1EFDF17200443E2F /* AppDelegate.swift in Sources */,
+				B699F1E51EFDF3BA00443E2F /* R.generated.swift in Sources */,
+				B699F21F1EFDFF5900443E2F /* TaskCell.swift in Sources */,
+				B699F1F31EFDF4DF00443E2F /* Folder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +600,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B699F1D11EFDF17200443E2F /* skillup_test_7Tests.swift in Sources */,
+				B699F2121EFDFACA00443E2F /* FolderDaoTests.swift in Sources */,
+				B699F2191EFDFE0900443E2F /* TaskTests.swift in Sources */,
+				B699F2241EFE055B00443E2F /* TaskCellTests.swift in Sources */,
+				B699F2151EFDFAE500443E2F /* FolderTests.swift in Sources */,
+				B699F2171EFDFDFB00443E2F /* TaskDaoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,20 +619,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B699F1BF1EFDF17200443E2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B699F1C01EFDF17200443E2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B699F1C41EFDF17200443E2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B699F1C51EFDF17200443E2F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,10 +728,11 @@
 		};
 		B699F1D61EFDF17200443E2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8020C20436594D1D76A00B94 /* Pods-skillup_test_7.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = skillup_test_7/Info.plist;
+				INFOPLIST_FILE = skillup_test_7/Others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.skillup-test-7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,10 +742,11 @@
 		};
 		B699F1D71EFDF17200443E2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3742F424FA58F61C4FBD1634 /* Pods-skillup_test_7.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
-				INFOPLIST_FILE = skillup_test_7/Info.plist;
+				INFOPLIST_FILE = skillup_test_7/Others/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.skillup-test-7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +756,7 @@
 		};
 		B699F1D91EFDF17200443E2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B09DA007BA07A1AD16752F9 /* Pods-skillup_test_7-skillup_test_7Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +772,7 @@
 		};
 		B699F1DA1EFDF17200443E2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350641D135BCD0D925F32DE1 /* Pods-skillup_test_7-skillup_test_7Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +805,7 @@
 				B699F1D71EFDF17200443E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B699F1D81EFDF17200443E2F /* Build configuration list for PBXNativeTarget "skillup_test_7Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +814,7 @@
 				B699F1DA1EFDF17200443E2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  skillup_test_7
+
+  Created by OkuderaYuki on 2017/06/24.
+  Copyright © 2017年 Okudera Yuki. All rights reserved.
+*/
+
+// MARK: - FolderListViewController
+"folder" = "フォルダ";
+"addNewFolder" = "新規フォルダ";
+"deleteAll" = "すべて削除";
+
+// MARK: - TaskListViewController
+"addNewTask" = "タスク追加";
+
+// MARK: - Alert
+"registerFolder" = "このフォルダの名前を入力してください。";
+"editFolder" = "このフォルダの新しい名前を入力してください。";
+"registerTask" = "このタスクの名前を入力してください。";
+"editTask" = "このタスクの新しい名前を入力してください。";
+"save" = "保存";
+"delete" = "削除";
+"cancel" = "キャンセル";
